@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "demand_forms",
+  "info": {
+    "name": "demandForm"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phoneNumber": {
+      "type": "string"
+    }
+  }
+}

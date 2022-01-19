@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "business_cooperation_forms",
+  "info": {
+    "name": "businessCooperationForm"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phoneNumber": {
+      "type": "string"
+    }
+  }
+}

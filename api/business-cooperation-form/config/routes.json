@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/business-cooperation-forms",
+      "handler": "business-cooperation-form.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/business-cooperation-forms/count",
+      "handler": "business-cooperation-form.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/business-cooperation-forms/:id",
+      "handler": "business-cooperation-form.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/business-cooperation-forms",
+      "handler": "business-cooperation-form.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/business-cooperation-forms/:id",
+      "handler": "business-cooperation-form.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/business-cooperation-forms/:id",
+      "handler": "business-cooperation-form.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
